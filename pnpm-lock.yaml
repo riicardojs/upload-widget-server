@@ -15,6 +15,7 @@ specifiers:
   postgres: ^3.4.5
   tsx: ^4.19.3
   typescript: ^5.8.3
+  uuidv7: ^1.0.2
   vite-tsconfig-paths: ^5.1.4
   vitest: ^3.1.2
   zod: ^3.24.3
@@ -28,6 +29,7 @@ dependencies:
   fastify: 5.3.2
   fastify-type-provider-zod: 4.0.2_fastify@5.3.2+zod@3.24.3
   postgres: 3.4.5
+  uuidv7: 1.0.2
   zod: 3.24.3
 
 devDependencies:
@@ -1922,6 +1924,11 @@ packages:
   /undici-types/6.21.0:
     resolution: {integrity: sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==}
     dev: true
+
+  /uuidv7/1.0.2:
+    resolution: {integrity: sha512-8JQkH4ooXnm1JCIhqTMbtmdnYEn6oKukBxHn1Ic9878jMkL7daTI7anTExfY18VRCX7tcdn5quzvCb6EWrR8PA==}
+    hasBin: true
+    dev: false
 
   /vite-node/3.1.2_lg3o5nzkobjq2qygrdav5gwow4:
     resolution: {integrity: sha512-/8iMryv46J3aK13iUXsei5G/A3CUlW4665THCPS+K8xAaqrVWiGB4RfXMQXCLjpK9P2eK//BczrVkn5JLAk6DA==}
