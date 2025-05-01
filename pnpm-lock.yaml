@@ -4,11 +4,13 @@ specifiers:
   '@aws-sdk/client-s3': ^3.796.0
   '@aws-sdk/lib-storage': ^3.796.0
   '@biomejs/biome': ^1.9.4
+  '@faker-js/faker': ^9.7.0
   '@fastify/cors': ^11.0.1
   '@fastify/multipart': ^9.0.3
   '@fastify/swagger': ^9.5.0
   '@fastify/swagger-ui': ^5.2.2
   '@types/node': ^22.14.1
+  dayjs: ^1.11.13
   dotenv-cli: ^8.0.0
   drizzle-kit: ^0.31.0
   drizzle-orm: ^0.42.0
@@ -29,6 +31,7 @@ dependencies:
   '@fastify/multipart': 9.0.3
   '@fastify/swagger': 9.5.0
   '@fastify/swagger-ui': 5.2.2
+  dayjs: 1.11.13
   drizzle-orm: 0.42.0_postgres@3.4.5
   fastify: 5.3.2
   fastify-type-provider-zod: 4.0.2_fastify@5.3.2+zod@3.24.3
@@ -38,6 +41,7 @@ dependencies:
 
 devDependencies:
   '@biomejs/biome': 1.9.4
+  '@faker-js/faker': 9.7.0
   '@types/node': 22.14.1
   dotenv-cli: 8.0.0
   drizzle-kit: 0.31.0
@@ -1166,6 +1170,11 @@ packages:
     dev: true
     optional: true
 
+  /@faker-js/faker/9.7.0:
+    resolution: {integrity: sha512-aozo5vqjCmDoXLNUJarFZx2IN/GgGaogY4TMJ6so/WLZOWpSV7fvj2dmrV6sEAnUm1O7aCrhTibjpzeDFgNqbg==}
+    engines: {node: '>=18.0.0', npm: '>=9.0.0'}
+    dev: true
+
   /@fastify/accept-negotiator/2.0.1:
     resolution: {integrity: sha512-/c/TW2bO/v9JeEgoD/g1G5GxGeCF1Hafdf79WPmUlgYiBXummY0oX3VVq4yFkKKVBKDNlaDUYoab7g38RpPqCQ==}
     dev: false
@@ -2156,6 +2165,10 @@ packages:
       path-key: 3.1.1
       shebang-command: 2.0.0
       which: 2.0.2
+
+  /dayjs/1.11.13:
+    resolution: {integrity: sha512-oaMBel6gjolK862uaPQOVTA7q3TZhuSvuMQAAglQDOWYO9A91IrAOUJEyKVlqJlHE0vq5p5UXxzdPfMH/x6xNg==}
+    dev: false
 
   /debug/4.4.0:
     resolution: {integrity: sha512-6WTZ/IxCY/T6BALoZHaE4ctp9xm+Z5kY/pzYaCHRFeyVhojxlrm+46y68HA6hr0TcwEssoxNiDEUJQjfPZ/RYA==}

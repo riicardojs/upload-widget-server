@@ -8,8 +8,8 @@ const getUploadsInput = z.object({
   searchQuery: z.string().optional(),
   sortBy: z.enum(['createdAt']).optional(),
   sortDirection: z.enum(['asc', 'desc']).optional(),
-  page: z.number().min(1).optional().default(1),
-  pageSize: z.number().min(1).max(100).optional().default(20),
+  page: z.number().optional().default(1),
+  pageSize: z.number().optional().default(20),
 })
 
 type GetUploadsInput = z.infer<typeof getUploadsInput>
