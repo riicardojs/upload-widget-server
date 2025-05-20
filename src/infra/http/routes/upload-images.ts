@@ -3,12 +3,13 @@ import { isRight, unwrapEither } from '@/shared/either'
 import type { FastifyPluginAsyncZod } from 'fastify-type-provider-zod'
 import { z } from 'zod'
 
-export const uploadImagesRoute: FastifyPluginAsyncZod = async server => {
+export const uploadImageRoute: FastifyPluginAsyncZod = async server => {
   server.post(
     '/uploads',
     {
       schema: {
         summary: 'Upload de imagens',
+        tags: ['uploads'],
         consumes: ['multipart/form-data'],
         response: {
           201: z
