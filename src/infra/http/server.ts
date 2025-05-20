@@ -11,6 +11,7 @@ import {
 import { getUploadsRoute } from './routes/get-uploads'
 import { uploadImageRoute } from './routes/upload-images'
 import { transformSwaggerSchema } from './transform-swagger-schema'
+import { exportUploadsRoute } from './routes/export-uploads'
 
 const server = fastify()
 
@@ -50,6 +51,7 @@ server.register(fastifySwaggerUi, {
 
 server.register(uploadImageRoute)
 server.register(getUploadsRoute)
+server.register(exportUploadsRoute)
 
 server
   .listen({
