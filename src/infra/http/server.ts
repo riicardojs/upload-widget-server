@@ -38,7 +38,7 @@ server.register(fastifyMultipart)
 server.register(fastifySwagger, {
   openapi: {
     info: {
-      title: 'Uplaod Server',
+      title: 'Upload Server',
       version: '1.0.0',
     },
   },
